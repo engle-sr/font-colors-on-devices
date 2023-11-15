@@ -1,0 +1,42 @@
+/* Global styles that apply to mobile, tablet, and desktop */
+body,
+html {
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1em;
+}
+
+body {
+  background-color: violet;
+  color: lightyellow;
+}
+
+section {
+  width: 50%;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Righteous', cursive;
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+/* TABLETS */
+@media (min-width: 768px) {
+  body {
+    background-color: lightcoral;
+    color: whitesmoke;
+  }
+}
+
+/* DESKTOP */
+@media (min-width: 1200px) {
+  body {
+    background-color: lightgoldenrodyellow;
+    color: coral;
+  }
+}
